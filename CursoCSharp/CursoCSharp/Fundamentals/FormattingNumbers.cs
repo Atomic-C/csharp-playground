@@ -17,7 +17,7 @@ namespace CursoCSharp.Fundamentals
             Console.WriteLine(value.ToString("P")); // Percentage
             Console.WriteLine(value.ToString("#.##")); // A number with two decimal, we format it as we want here
 
-            CultureInfo culture = new CultureInfo("en-US"); // We can use thos to define a culture
+            CultureInfo culture = new CultureInfo("en-US"); // We can use thos to define a culture  
             Console.WriteLine(value.ToString("C2", culture)); // C0 means no decimal, C1 means 1, C2 means 2 and so on.
 
             int wholeNumber = 256;
