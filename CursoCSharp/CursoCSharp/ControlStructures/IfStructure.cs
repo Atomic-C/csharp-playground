@@ -21,10 +21,13 @@ namespace CursoCSharp.ControlStructures
                 Console.WriteLine("Tem bom comportamento (S/N): ");
                 entry = Console.ReadLine();
 
-                if (entry == "S" || entry == "s")
-                {
-                    goodBehavior = true;    
-                }
+                //if (entry == "S" || entry == "s")
+                //{
+                //    goodBehavior = true;    
+                //}
+
+                    goodBehavior = entry.ToLower() == "s";
+
                 if (grade > 9.0 && goodBehavior)
                 {
                     Console.WriteLine("Quadro de honra!");
