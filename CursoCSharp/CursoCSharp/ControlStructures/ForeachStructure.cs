@@ -16,7 +16,7 @@ namespace CursoCSharp.ControlStructures
                 Console.WriteLine(item);
             }
 
-            string students = new string[] { "Pedro", "Ana", "Harry" };
+            string[] students = new string[] { "Pedro", "Ana", "Harry" };
             foreach (var item in students)
             {
                 Console.WriteLine(item);
