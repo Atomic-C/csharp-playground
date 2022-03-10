@@ -38,7 +38,7 @@ namespace CursoCSharp.ControlStructures
                 entry = Console.ReadLine();
                 double.TryParse(entry, out double actualGrade);
 
-                sum = +actualGrade;
+                sum += actualGrade;
             }
                 double average = classSize > 0 ? sum / classSize : 0;
                 Console.WriteLine($"A média da turma é: {average}");
