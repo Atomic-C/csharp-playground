@@ -16,11 +16,11 @@ namespace CursoCSharp.ControlStructures
 
             for (int i = 0; i <= interval; i++)
             {
-                if (i % 2 == 1)
+                if (i % 2 == 1) // If remainder is 1, it's odd.
                 {
-                    continue;
+                    continue; // Jump this number
                 }
-                Console.WriteLine($"{i} ");
+                Console.WriteLine($"{i} "); // Print anything else that isn't odd :)
             }
         }
     }
