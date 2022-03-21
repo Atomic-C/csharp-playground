@@ -34,7 +34,9 @@ namespace CursoCSharp {
                 {"Estrutura Foreach - Estruturas de Controlo", ForeachStructure.Execute },
                 {"Usando Break - Estruturas de Controlo", UsingBreak.Execute },
                 {"Usando Continue - Estruturas de Controlo", UsingContinue.Execute },
+                // Classes and Methods
                 {"Membros - Metodos e Classes", Members.Execute },
+                {"Construtores - Metodos e Classes", Constructors.Execute },
             }) ;
 
             central.SelecionarEExecutar();
