@@ -35,8 +35,9 @@ namespace CursoCSharp {
                 {"Usando Break - Estruturas de Controlo", UsingBreak.Execute },
                 {"Usando Continue - Estruturas de Controlo", UsingContinue.Execute },
                 // Classes and Methods
-                {"Membros - Metodos e Classes", Members.Execute },
-                {"Construtores - Metodos e Classes", Constructors.Execute },
+                {"Membros - Métodos e Classes", Members.Execute },
+                {"Construtores - Métodos e Classes", Constructors.Execute },
+                {"Métodos com retorno - Métodos e Classes", MethodsWithReturn.Execute },
             }) ;
 
             central.SelecionarEExecutar();
