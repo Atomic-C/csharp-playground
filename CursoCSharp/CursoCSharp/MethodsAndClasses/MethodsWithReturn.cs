@@ -71,6 +71,18 @@
             chainedCalculator.Clear().Sum(50).Multiply(25).Print();
             System.Console.WriteLine("Testing ChainedCalculator's Result method:");
             System.Console.WriteLine(chainedCalculator.Result());
+            
+            /*
+             Methods must have a unique signature
+
+            The return type isn't part of the method's signature.
+            parameter types and method name are the method's signature.
+
+            We can have two methods with different names and same parameters - Use this one
+            We can have methods with the same name, different parameters - And this one
+            We can have more than one method with the same name with the same parameters, as long as these are in different order.
+
+             */
         }
     }
 }
