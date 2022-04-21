@@ -19,10 +19,21 @@ namespace CursoCSharp.MethodsAndClasses
         }
         public static void Execute()
         {
-            Console.WriteLine(StaticCalculator.Multiply(2, 2));
+            // Member method calls
+
+            int staticResult = StaticCalculator.Multiply(4, 4);
+            Console.WriteLine(staticResult); // We're calling the stored result from the class method
+
+            Console.WriteLine(StaticCalculator.Multiply(5, 5)); // We're printing to the console directly from the class method
+
+            // Instance method calls
 
             StaticCalculator staticCalculator = new StaticCalculator();
-            Console.WriteLine(staticCalculator.Sum(4, 4));
+            int instanceResult = staticCalculator.Sum(4, 10);
+
+            Console.WriteLine(instanceResult); // We're calling the stored result from the instance method
+
+            Console.WriteLine(staticCalculator.Sum(4, 4)); // We're printing directly to the console from instance method
         }
     }
 }
