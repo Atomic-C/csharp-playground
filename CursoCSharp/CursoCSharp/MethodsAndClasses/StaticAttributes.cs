@@ -40,7 +40,7 @@
                 Price = 2.40,
                 //Discount = 0.05
             };
-            Product.Discount = 0.5;
+            Product.Discount = 0.5; // Product is a class attribute, so we can access and change it directly.
 
             System.Console.WriteLine($"Price of {firstProduct.Name} is {firstProduct.Price}");
             System.Console.WriteLine($"Price of {secondProduct.Name} is {secondProduct.Price}");
