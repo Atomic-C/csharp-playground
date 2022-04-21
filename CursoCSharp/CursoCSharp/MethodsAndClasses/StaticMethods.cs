@@ -12,7 +12,7 @@ namespace CursoCSharp.MethodsAndClasses
                 return a * b;
             }
             // Instance method below
-            public static int Sum(int a, int b)
+            public int Sum(int a, int b)
             {
                 return a + b;
             }
@@ -22,7 +22,7 @@ namespace CursoCSharp.MethodsAndClasses
             Console.WriteLine(StaticCalculator.Multiply(2, 2));
 
             StaticCalculator staticCalculator = new StaticCalculator();
-            Console.WriteLine(StaticCalculator.Sum(4, 4));
+            Console.WriteLine(staticCalculator.Sum(4, 4));
         }
     }
 }
